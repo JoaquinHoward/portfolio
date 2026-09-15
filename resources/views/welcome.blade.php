@@ -1,10 +1,26 @@
 <x-layout>
     <x-sidebar>
-        <a href="">About me</a>
-        <a href="">Projects</a>
-        <a href="">Story</a>
-        <a href="">Education</a>
-        <a href="">Contact Me ;)</a>
+
+        <x-bar>
+            <a href="">About me</a>
+        </x-bar>
+
+        <x-bar>
+            <a href="">Projects</a>
+        </x-bar>
+
+        <x-bar>
+            <a href="">Story</a>
+        </x-bar>
+
+        <x-bar>
+            <a href="">Education</a>
+        </x-bar>
+
+        <x-bar>
+            <a href="">Contact Me</a>
+        </x-bar>
+
     </x-sidebar>
     <div>
         <h1 class="text-6xl">Hi!</h1>
